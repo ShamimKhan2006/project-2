@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1A0B2E;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn-bg-color{
+    background:linear-gradient(180deg,#ffcc33,#ff2fb3, #7b2cff)
+}
+.color{
+    color:#ff2fa5f5;
+}
+
+
+nav h2{
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin-top:30px;
+    padding-bottom:2rem;
+    
+}
+
+nav>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    max-width: 218px;
+    font-size:1.2rem;
+}
+nav>div>li{
+     list-style:none;
+}
+nav>div>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+nav>button{
+    font-weight:500;
+    font-size: 1rem;
+    background:linear-gradient(90deg,#ffcc33,#ff2fb3, #7b2cff);
+    border:none;
+    border-radius: 999px;
+    padding:  5px 10px;
+    cursor: pointer;
+    color: white;
+   
+
+}
+main{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 2000px;
+    position: relative;
+    max-height: 70vh;
+
+
+}
+
+ .banner-container>img{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1990px;
+    margin-top: 2rem;
+
+ }
+ .banner-container .img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:999px;
+    border: 2px solid #2A186C;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    
+    
+ }
+ .banner-container .img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    top: 50%;
+    left:50%;
+    bottom: 50%;
+    right: 50%;
+ }
+ 
+.banner-container{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 3rem;
+}
+.banner-container h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    margin-top: -370px;
+    position: relative;
+    z-index: 10;
+}
+.banner-container p{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 40px;
+}
+.banner-container button{ 
+    padding:5px 10px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+   
+
+}
+.banner-container .ff{
+  color: green;
+   background: transparent;
+   padding-left: 10px;
+   border: 1px solid rgb(100, 231, 100);
+   text-align: center;
+}
+.newbadge {
+    position: absolute;
+    top: -156px; 
+    right: -150px; 
+    background-color: #39FF14;
+    color: black;
+    font-size: 1.5rem;
+    font-weight:700;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+}
+
+.about-section{
+    margin-top: 300px;
+    text-align: center;
+}
+.about-container>h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.about-container>p{
+    color:#FFFFFF;
+    max-width: 1000px;
+    max-height: 900px;
+    margin: 0 auto;
+    padding-bottom:2rem;
+    font-size: 1rem;
+    line-height: 25px;
+    
+}
+
+.about-container{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 7rem;
+}
+.number-section{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+.number-section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.number-section .number-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8rem;
+}
+ .number h1{
+    color: #39FF14;
+    font-weight:black;
+    text-align: center;
+    font-size: 48px;
+}
+.number p{
+    color: white;
+}
+aside{
+    max-width: 1700px;
+    margin: 0 auto;
+    background-color: #230E3D;
+    color:white;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 5px;
+    padding-bottom: 125px;
+}
+
+.aside-container {
+    max-width: 1300px;
+    margin:40px 200px 120px 200px;
+    
+}
+.aside-container>*{
+    border: 2px solid rgba(53, 17, 101, 0.4);
+    background-color: #230E3D;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+     flex-direction: column;
+    align-items: flex-start;
+    text-align: left; 
+}
+  .card-1 img{
+    padding-bottom: 20px;
+  }
+
+  .card-1 h4{
+     font-size: 24px;
+     font-weight: 600px;
+     max-width: 300px;
+     padding-bottom: 20px;
+  }
+  .card-2 img{
+    padding-bottom: 20px;
+  }
+
+  .card-2 h4{
+     font-size: 24px;
+     font-weight: 600px;
+     max-width: 300px;
+     padding-bottom: 20px;
+  }
+  .card-3 img{
+    padding-bottom: 20px;
+  }
+
+  .card-3 h4{
+     font-size: 24px;
+     font-weight: 600px;
+     max-width: 300px;
+     padding-bottom: 20px;
+  }
+  .card-4 img{
+    padding-bottom: 20px;
+  }
+
+  .card-4 h4{
+     font-size: 24px;
+     font-weight: 600px;
+     max-width: 300px;
+     padding-bottom: 20px;
+  }
+  .card-5 img{
+    padding-bottom: 20px;
+  }
+
+  .card-5 h4{
+     font-size: 24px;
+     font-weight: 600px;
+     max-width: 300px;
+     padding-bottom: 20px;
+  }
+ .card-1{                                          
+      grid-area: header; 
+      max-width: 300px; 
+      padding: 110px 40px;
+      margin-bottom: 10px;               
+                           
+ }
+.card-2{
+    grid-area: nav;
+    max-width: 800px;
+}
+.card-3{
+    grid-area: main;
+    max-width: 800px;
+
+}
+.card-4{
+    grid-area: aside;
+    max-width: 800px;
+}
+.card-5{
+    grid-area: foot;
+    max-width:400px;
+}
+
+.aside-container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas:"header  nav    nav     nav  "
+                       "header   nav     nav     nav"
+                        "header   main  main    main"
+                        "aside   aside   aside  foot"
+                        "aside   aside   aside   foot";
+
+}
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    
+    nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    max-width: 1800px;
+    margin-top:30px;
+    padding-bottom:2rem;
+    }
+    nav>div{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    max-width: 218px;
+    font-size:1.2rem;
+}
+nav>button{
+    font-weight:600;
+    font-size: 1.6rem;
+    background:linear-gradient(90deg,#ffcc33,#ff2fb3, #7b2cff);
+    border:none;
+    border-radius: 999px;
+    padding:  12px 20px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+nav h2{
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    padding:0 14rem 0 0;
+    background-image: url(./assets/hamburger-menu.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-container>img{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    max-width: 600px;
+
+ }
+ .banner-container .img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:999px;
+    border: 2px solid #2A186C;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+    
+ }
+ .banner-container .img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    top: 50%;
+    left:50%;
+    bottom: 50%;
+    right: 50%;
+    width: 50px;
+    height: 50px;
+ }
+ 
+.banner-container{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 3rem;
+}
+button .btn-bg-color{
+    display: flex;
+    flex-direction:column
+}
+
+
+.about-section{
+    margin-top: 300px;
+    text-align: center;
+    max-width: 580px;
+    width: 100%;
+    padding: 0 1rem;
+    padding-top: 6rem;
+
+}
+
+.number-section .number-container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    padding:15px;
+    width: 100%;
+    max-height:400px;
+}
+.number-container{
+    text-align: center;
+    margin: 0 20px;
+}
+
+img .img2 .img3{
+    width:100%;
+    height:auto;
+}
+
+
+    
+}
