@@ -33,7 +33,7 @@ nav{
     align-items: center;
     max-width: 1600px;
     margin-top:30px;
-    padding-bottom:2rem;
+    /* padding-bottom:2rem; */
     
 }
 
@@ -71,6 +71,7 @@ main{
     max-width: 2000px;
     position: relative;
     max-height: 70vh;
+    padding: 0 auto;
 
 
 }
@@ -125,6 +126,7 @@ main{
     font-size: 1rem;
     margin-bottom: 2rem;
     margin-top: 40px;
+    /* line-height: 1.6; */
 }
 .banner-container button{ 
     padding:5px 10px;
@@ -171,7 +173,7 @@ main{
     margin: 0 auto;
     padding-bottom:2rem;
     font-size: 1rem;
-    line-height: 25px;
+    line-height:1.6;
     
 }
 
@@ -205,10 +207,11 @@ main{
 }
 .number p{
     color: white;
+    line-height: 1.6;
 }
 aside{
-    max-width: 1700px;
-    margin: 0 auto;
+    max-width: 1900px;
+   
     background-color: #230E3D;
     color:white;
     text-align: center;
@@ -219,7 +222,7 @@ aside{
 
 .aside-container {
     max-width: 1300px;
-    margin:40px 200px 120px 200px;
+     margin: 0 auto;
     
 }
 .aside-container>*{
@@ -310,13 +313,188 @@ aside{
 .aside-container{
     display: grid;
     gap: 20px;
-    grid-template-areas:"header  nav    nav     nav  "
-                       "header   nav     nav     nav"
-                        "header   main  main    main"
-                        "aside   aside   aside  foot"
-                        "aside   aside   aside   foot";
+    grid-template-areas:"header  nav    nav     nav  nav  "
+                       "header   nav     nav     nav  nav "
+                        "header   main  main    main  main "
+                        "aside   aside   aside  foot  foot "
+                        "aside   aside   aside   foot foot ";
 
 }
+  section{
+    margin-top: 130px;
+    text-align: center;
+    max-width: 2000px;
+    background-color: #1A0B2E;
+    
+  }
+  .video-sec h1{
+    margin-bottom: 2.5rem;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+  }
+  .video-sec{
+    margin-bottom: 8rem;
+  }
+
+
+.video-container{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content:space-around;
+
+}
+.video{
+    border-radius:25px;
+    background-color: #230E3D;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+.video iframe{
+    border-radius: 26px;
+    overflow: hidden;
+    /* pointer-events: none; */
+}
+.play-btn{
+    position: absolute;
+    top: 37%;
+    width: 60px;
+    height:60px;
+    left: 40%;
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+
+}
+.video h3,p,h5{
+    padding: 1rem 1rem;
+    text-align: left;
+    line-height: 1.6;
+}
+.video h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.video p{
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+    max-width: 340px;
+    line-height: 1.6;
+}
+.video h5{
+    color: #00FF88;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1rem;
+    text-align:left;
+}
+
+.podcast-sec{
+    max-width: 1700px;
+    background-color: #1A0B2E;
+    margin:7.5rem 15rem;
+    
+}
+.podcast-sec h1{
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+.podcast-container{
+    max-width: 1400px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    padding: 5.5rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    width: 100%;
+    background-color: #230E3D;
+    color: white;
+    
+}
+
+.podcast-container>img{
+    padding-right: 3rem;
+}
+.podcast-text h2{
+    text-align: left;
+}
+.podcast-text>p{
+    text-align:left;
+    line-height: 1.6;
+}
+.podcast-text .social-icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 0.5rem;
+}
+.social-icons img{
+    border: rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    max-width: 60PX;
+    max-height: 60PX;
+}
+
+footer{
+    max-width: 1900px;
+    background-image: url(./assets/footer-bg.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-container{
+    padding: 8rem;
+    text-align: center;
+    width: 100%;
+}
+.footer-container h1{
+    font-weight: 900;
+    font-size: 5rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+ .icon{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+ }
+ .footer-container p{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
