@@ -5,9 +5,7 @@
 }
 body{
     background-color:#1A0B2E;
-    height: 100%;
-    width: 100%;
-    
+    overflow-x: hidden;  
 }
 
 .montserrat-font {
@@ -428,7 +426,7 @@ button .btn-bg-color{
 .number-section .number-container{
     display: grid;
     grid-template-columns: repeat(2,2fr);
-    padding:15px;
+    padding:14px;
     width: 100%;
     max-height:400px;
 }
@@ -437,6 +435,47 @@ button .btn-bg-color{
     margin: 0 20px;
 }
 
+.aside-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding:15px;
+    width: 100%;
+   
+}
+
+@media screen and (max-width: 576px) {
+    .aside-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        justify-content: center;
+        width: 100%;
+    }
+
+    .aside-container > div {
+        width: 90%;             
+        max-width: 400px;
+        margin: 10px 0;        
+        text-align: center;     
+    }
+}
+
+
+
+
+
+
+
+/* aside {
+    max-width: 1700px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 5px;
+    padding-bottom: 125px;
+
+} */
 img .img2 .img3{
     width:100%;
     height:auto;
