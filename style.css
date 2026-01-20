@@ -372,13 +372,12 @@ nav h2{
     margin: 0 auto;
     margin-top: 2rem;
     max-width: 600px;
-
  }
  .banner-container .img2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:999px;
+    border-radius:998px;
     border: 2px solid #2A186C;
     position: absolute;
     top: 50%;
@@ -455,7 +454,7 @@ button .btn-bg-color{
 
     .aside-container > div {
         width: 90%;             
-        max-width: 400px;
+        max-width: 390px;
         margin: 10px 0;        
         text-align: center;     
     }
